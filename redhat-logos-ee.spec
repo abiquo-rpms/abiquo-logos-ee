@@ -1,9 +1,9 @@
-Name: redhat-logos
+Name: redhat-logos-ee
 Summary: FrameOS-related icons and pictures.
 Version: 4.9.99
 Release: 12.el5.abiquo
 Group: System Environment/Base
-Source0: redhat-logos-%{version}-centos.tar.bz2
+Source0: %{name}-%{version}-centos.tar.bz2
 Source1: redhat-logos-anaconda-abiquo-5.1.tar.bz2
 Source2: redhat-logos-abiquo-bootloader.tar.bz2
 Source3: redhat-logos-centos-firstboot.tar.bz2
@@ -14,21 +14,21 @@ Source7: redhat-logos-centos-rhgb.tar.bz2
 Source9: redhat-credits.png
 Patch0:  centos5-isolinux-colors.patch
 
-License: Copyright © 2003-2007 the CentOS Project.  All rights reserved.
+License: Copyright © 2003-2007 the FrameOS Project.  All rights reserved.
 BuildRoot: %{_tmppath}/%{name}-root
 BuildArchitectures: noarch
 Conflicts: anaconda-images <= 10
-Provides: system-logos
+Provides: system-logos redhat-logos
 
 %description
 The redhat-logos package (the "Package") contains files created by the
-CentOS Project to replace the Red Hat "Shadow Man" logo and  RPM logo.
+FrameOS Project to replace the Red Hat "Shadow Man" logo and  RPM logo.
 The Red Hat "Shadow Man" logo, RPM, and the RPM logo are trademarks or
 registered trademarks of Red Hat, Inc.
 
-The Package and CentOS logos (the "Marks") can only used as outlined in 
+The Package and FrameOS logos (the "Marks") can only used as outlined in 
 the included COPYING file. Please see that file for information on copying
-and redistribution of the CentOS Marks.
+and redistribution of the FrameOS Marks.
 
 %prep
 %setup -n redhat-logos-%{version}-centos
