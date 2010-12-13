@@ -1,9 +1,9 @@
-Name: redhat-logos-ee
+Name: abiquo-logos-ee
 Summary: FrameOS-related icons and pictures.
 Version: 4.9.99
 Release: 12.el5.abiquo
 Group: System Environment/Base
-Source0: %{name}-%{version}-centos.tar.bz2
+Source0: redhat-logos-%{version}-centos.tar.bz2
 Source1: redhat-logos-anaconda-abiquo-5.1.tar.bz2
 Source2: redhat-logos-abiquo-bootloader.tar.bz2
 Source3: redhat-logos-centos-firstboot.tar.bz2
